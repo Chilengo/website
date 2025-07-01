@@ -2,6 +2,84 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<!-- Hero Section -->
+<MudStack Spacing="7" Style="min-height: 80vh;">
+    <MudContainer MaxWidth="MaxWidth.Medium" Class="pt-10 vh-100">
+        <MudText Typo="Typo.h3" Color="Color.Primary" Align="Align.Center">
+            Where Roadblocks Become Runways.
+        </MudText>
+    </MudContainer>
+    <MudContainer MaxWidth="MaxWidth.Small">
+        <MudText Typo="Typo.h6" Class="mb-6" Align="Align.Center">
+            We do more than build platforms; we build momentum. Our focus is on delivering the right solution to break
+            through your barriers and accelerate your journey forward.
+        </MudText>
+        <MudStack Row AlignItems="AlignItems.Center" Justify="Justify.Center">
+            <MudButton StartIcon="@Icons.Material.Rounded.RocketLaunch" Variant="Variant.Filled"
+                       Color="Color.Primary">
+                Learn More
+            </MudButton>
+            <MudButton StartIcon="@Icons.Material.Rounded.ContactSupport" Variant="Variant.Outlined"
+                       Color="Color.Default">
+                Get In Touch
+            </MudButton>
+        </MudStack>
+    </MudContainer>
+</MudStack>
 
-Welcome to your new app.
+<MudContainer MaxWidth="MaxWidth.Large" Class="pt-10">
+    <MudStack Spacing="15">
+        <MudStack>
+            <MudText Typo="Typo.h3" Color="Color.Primary" Align="Align.Center">
+                How I Help
+            </MudText>
+            <MudDivider/>
+        </MudStack>
+        <MudGrid>
+            <MudItem xs="12" sm="4">
+                <MudCard Class="h-100" Outlined="true">
+                    <MudCardHeader>
+                        <MudIcon Icon="@Icons.Material.Filled.Lightbulb" Class="mr-2"/>
+                        <MudText Typo="Typo.h5">Strategic Planning</MudText>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <MudText>
+                            It all starts with a clear plan. I work directly with you to understand your goals, audit
+                            your current tech, and create a straightforward roadmap for success. No layers of
+                            management, just direct expert advice.
+                        </MudText>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" sm="4">
+                <MudCard Class="h-100" Outlined="true">
+                    <MudCardHeader>
+                        <MudIcon Icon="@Icons.Material.Filled.Code" Class="mr-2"/>
+                        <MudText Typo="Typo.h5">Custom Tools & Automation</MudText>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <MudText>
+                            Instead of generic solutions, I build the specific tools you need to eliminate bottlenecks,
+                            automate tedious work, and connect your systems—freeing you up to focus on your business.
+                        </MudText>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" sm="4">
+                <MudCard Class="h-100" Outlined="true">
+                    <MudCardHeader>
+                        <MudIcon Icon="@Icons.Material.Filled.Favorite" Class="mr-2"/>
+                        <MudText Typo="Typo.h5">A Dedicated Partner</MudText>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <MudText>
+                            My job doesn't end at launch. You get a dedicated partner invested in your success,
+                            providing the ongoing support and improvements needed to ensure your technology continues to
+                            serve you well.
+                        </MudText>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+        </MudGrid>
+    </MudStack>
+</MudContainer>

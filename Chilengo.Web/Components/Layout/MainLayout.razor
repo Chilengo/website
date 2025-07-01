@@ -6,16 +6,17 @@
 <MudSnackbarProvider/>
 
 <MudLayout>
-    <MudAppBar Dense="true" Elevation="25">
-        <MudText Typo="Typo.h5">
-            Chilengo.Web
+    <MudAppBar Dense="true" Elevation="0" Class="border-b" Style="border-color: var(--mud-palette-divider);">
+        <MudText Typo="Typo.h5" Color="Color.Default">
+            <strong>
+                Chilengo
+            </strong>
         </MudText>
+        <MudSpacer/>
     </MudAppBar>
-    
-    <MudMainContent Class="mt-5">
-        <MudContainer>
-            @Body
-        </MudContainer>
+
+    <MudMainContent CLass="mb-20">
+        @Body
     </MudMainContent>
 </MudLayout>
 
