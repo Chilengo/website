@@ -4,30 +4,50 @@
 
 <!-- Hero Section -->
 <MudStack Spacing="7" Style="min-height: 80vh;">
-    <MudContainer MaxWidth="MaxWidth.Medium" Class="pt-10 vh-100">
-        <MudText Typo="Typo.h3" Color="Color.Primary" Align="Align.Center">
-            Where Roadblocks Become Runways.
-        </MudText>
-    </MudContainer>
-    <MudContainer MaxWidth="MaxWidth.Small">
-        <MudText Typo="Typo.h6" Class="mb-6" Align="Align.Center">
-            We do more than build platforms; we build momentum. Our focus is on delivering the right solution to break
-            through your barriers and accelerate your journey forward.
-        </MudText>
-        <MudStack Row AlignItems="AlignItems.Center" Justify="Justify.Center">
-            <MudButton StartIcon="@Icons.Material.Rounded.RocketLaunch" Variant="Variant.Filled"
-                       Color="Color.Primary">
-                Learn More
-            </MudButton>
-            <MudButton StartIcon="@Icons.Material.Rounded.ContactSupport" Variant="Variant.Outlined"
-                       Color="Color.Default">
-                Get In Touch
-            </MudButton>
-        </MudStack>
-    </MudContainer>
+    <MudGrid Justify="Justify.SpaceAround">
+        <MudItem xs="12" md="6">
+            <MudStack Spacing="10">
+                <MudContainer MaxWidth="MaxWidth.Medium" Class="pt-10 vh-100">
+                    <MudText Typo="Typo.h3" Color="Color.Primary" Align="Align.Center">
+                        Where Roadblocks Become Runways.
+                    </MudText>
+                </MudContainer>
+                <MudContainer MaxWidth="MaxWidth.Small">
+                    <MudText Typo="Typo.h6" Class="mb-6" Align="Align.Center">
+                        I do more than build platforms; I build momentum. My focus is on delivering the right solution
+                        to break through your barriers and accelerate your journey forward.
+                    </MudText>
+                    <MudStack Row AlignItems="AlignItems.Center" Justify="Justify.Center">
+                        <MudButton StartIcon="@Icons.Material.Rounded.RocketLaunch" Variant="Variant.Filled"
+                                   Color="Color.Primary">
+                            Learn More
+                        </MudButton>
+                        <MudButton StartIcon="@Icons.Material.Rounded.ContactSupport" Variant="Variant.Outlined"
+                                   Color="Color.Default">
+                            Get In Touch
+                        </MudButton>
+                    </MudStack>
+                </MudContainer>
+            </MudStack>
+        </MudItem>
+    </MudGrid>
 </MudStack>
 
-<MudContainer MaxWidth="MaxWidth.Large" Class="pt-10">
+<MudContainer MaxWidth="MaxWidth.Medium" Class="pt-10" Style="min-height: 80vh;">
+    <MudStack Spacing="15">
+        <MudStack>
+            <MudText Typo="Typo.h3" Color="Color.Primary" Align="Align.Center">
+                Who I Am
+            </MudText>
+            <MudDivider/>
+        </MudStack>
+        <MudStack AlignItems="AlignItems.Center" Justify="Justify.Center">
+            <MudImage Src="/assets/chilengo_fix.webp" Width="512"></MudImage>
+        </MudStack>
+    </MudStack>
+</MudContainer>
+
+<MudContainer MaxWidth="MaxWidth.Medium" Class="pt-10" Style="min-height: 80vh;">
     <MudStack Spacing="15">
         <MudStack>
             <MudText Typo="Typo.h3" Color="Color.Primary" Align="Align.Center">
