@@ -1,4 +1,4 @@
-using Chilengo.Components;
+using Chilengo.Web.Components;
 using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);

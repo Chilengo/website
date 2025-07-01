@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chilengo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2afc57772e1ce0346fcb78960c5f27a3ac072a68")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chilengo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chilengo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

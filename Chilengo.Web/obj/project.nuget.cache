@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0grg9xHdNqs=",
+  "dgSpecHash": "FI3w5RnuNUc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\BLBurge\\source\\repos\\chilengo\\Chilengo\\Chilengo\\Chilengo.csproj",
+  "projectFilePath": "C:\\Users\\BLBurge\\source\\repos\\chilengo\\Chilengo\\Chilengo.Web\\Chilengo.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BLBurge\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.0-preview.5.25277.114\\microsoft.aspnetcore.app.internal.assets.10.0.0-preview.5.25277.114.nupkg.sha512",
     "C:\\Users\\BLBurge\\.nuget\\packages\\mudblazor\\8.8.0\\mudblazor.8.8.0.nupkg.sha512"

@@ -1,4 +1,4 @@
-﻿namespace Chilengo.Components.Layout;
+﻿namespace Chilengo.Web.Components.Layout;
 
 public static class Themes
 {
