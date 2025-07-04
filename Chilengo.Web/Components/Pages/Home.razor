@@ -22,7 +22,7 @@
                                 </MudText>
                                 <MudStack AlignItems="AlignItems.Center">
                                     <MudButton StartIcon="@Icons.Material.Rounded.RocketLaunch" Variant="Variant.Filled"
-                                               Color="Color.Primary">
+                                               Color="Color.Primary" Href="#contact-us">
                                         Get Unblocked
                                     </MudButton>
                                 </MudStack>
@@ -192,7 +192,7 @@
     </MudStack>
 </MudContainer>
 
-<MudContainer Class="mt-10">
+<MudContainer Class="mt-10" id="contact-us">
     <MudDivider/>
     <MudStack Spacing="4" Class="py-8">
         <MudGrid Justify="Justify.Center">
@@ -200,6 +200,12 @@
                 <MudStack AlignItems="AlignItems.Center" Spacing="10">
                     <MudStack AlignItems="AlignItems.Center" Spacing="4">
                         <MudText Typo="Typo.h6" Color="Color.Primary">Connect With Me</MudText>
+                        <MudButton Variant="Variant.Text" StartIcon="@Icons.Material.Filled.Email"
+                                   Href="mailto:ben@chilengo.com">
+                            <MudText>
+                                ben@chilengo.com
+                            </MudText>
+                        </MudButton>
                         <MudStack Row="true" Spacing="4" AlignItems="AlignItems.Center">
                             <MudStack AlignItems="AlignItems.Center" Spacing="0">
                                 <MudIconButton Icon="@Icons.Custom.Brands.X" Color="Color.Primary"
@@ -228,7 +234,8 @@
                             </MudStack>
                         </MudStack>
                     </MudStack>
-                    <MudText Typo="Typo.body2" Color="Color.Default">© 2024-2025 Chilengo LLC. All rights reserved.</MudText>
+                    <MudText Typo="Typo.body2" Color="Color.Default">© 2024-2025 Chilengo LLC. All rights reserved.
+                    </MudText>
                 </MudStack>
             </MudItem>
         </MudGrid>
