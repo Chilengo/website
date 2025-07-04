@@ -6,11 +6,18 @@ public static class Themes
     {
         PaletteLight = new PaletteLight()
         {
-            AppbarBackground = "#FFFFFF",
+            AppbarBackground = "#FFFFFF", 
             AppbarText = "#424242",
             Primary = "#2196F3",
             PrimaryDarken = "#1E88E5",
             PrimaryLighten = "#42A5F5"
+        },
+        Typography = new Typography()
+        {
+            Default = new DefaultTypography()
+            {
+                FontFamily = ["Poppins", "sans-serif"]
+            }
         }
     };
 }

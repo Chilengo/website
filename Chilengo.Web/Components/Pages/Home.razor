@@ -3,98 +3,145 @@
 <PageTitle>Home</PageTitle>
 
 <!-- Hero Section -->
-<MudStack Spacing="7" Style="min-height: 80vh;">
-    <MudGrid Justify="Justify.SpaceAround">
-        <MudItem xs="12" md="6">
-            <MudStack Spacing="10">
-                <MudContainer MaxWidth="MaxWidth.Medium" Class="pt-10 vh-100">
-                    <MudText Typo="Typo.h3" Color="Color.Primary" Align="Align.Center">
-                        Where Roadblocks Become Runways.
-                    </MudText>
-                </MudContainer>
-                <MudContainer MaxWidth="MaxWidth.Small">
-                    <MudText Typo="Typo.h6" Class="mb-6" Align="Align.Center">
-                        I do more than build platforms; I build momentum. My focus is on delivering the right solution
-                        to break through your barriers and accelerate your journey forward.
-                    </MudText>
-                    <MudStack Row AlignItems="AlignItems.Center" Justify="Justify.Center">
-                        <MudButton StartIcon="@Icons.Material.Rounded.RocketLaunch" Variant="Variant.Filled"
-                                   Color="Color.Primary">
-                            Get Unblocked
-                        </MudButton>
-                    </MudStack>
-                </MudContainer>
-            </MudStack>
-        </MudItem>
-    </MudGrid>
-</MudStack>
-
-<MudContainer MaxWidth="MaxWidth.Medium" Class="pt-10" Style="min-height: 80vh;">
-    <MudStack Spacing="15">
-        <MudStack>
-            <MudText Typo="Typo.h3" Color="Color.Primary" Align="Align.Center">
-                Who I Am
-            </MudText>
-            <MudDivider/>
-        </MudStack>
-        <MudStack AlignItems="AlignItems.Center" Justify="Justify.Center">
-            <MudImage Src="/assets/chilengo_fix.webp" Width="512"></MudImage>
-        </MudStack>
+<MudContainer Class="mt-10">
+    <MudStack Spacing="7" Style="min-height: 50vh;">
+        <MudGrid Justify="Justify.Center" AlignItems="AlignItems.Center" Style="height: 100%;">
+            <MudItem xs="12" lg="8">
+                <MudStack Spacing="10" Class="d-flex align-center justify-center" Style="height: 100%;">
+                    <MudContainer MaxWidth="MaxWidth.Medium">
+                        <MudText Typo="Typo.h3" Color="Color.Primary" Align="Align.Center">
+                            Where Roadblocks Become Runways.
+                        </MudText>
+                    </MudContainer>
+                    <MudContainer MaxWidth="MaxWidth.Small">
+                        <MudStack Spacing="10" AlignItems="AlignItems.Center">
+                            <MudStack Spacing="5" AlignItems="AlignItems.Center">
+                                <MudText Typo="Typo.h6" Align="Align.Center">
+                                    My focus is on delivering the right solution
+                                    to break through your barriers and accelerate your journey forward.
+                                </MudText>
+                                <MudStack AlignItems="AlignItems.Center">
+                                    <MudButton StartIcon="@Icons.Material.Rounded.RocketLaunch" Variant="Variant.Filled"
+                                               Color="Color.Primary">
+                                        Get Unblocked
+                                    </MudButton>
+                                </MudStack>
+                            </MudStack>
+                        </MudStack>
+                    </MudContainer>
+                </MudStack>
+            </MudItem>
+        </MudGrid>
     </MudStack>
 </MudContainer>
 
-<MudContainer MaxWidth="MaxWidth.Medium" Class="pt-10" Style="min-height: 80vh;">
-    <MudStack Spacing="15">
-        <MudStack>
-            <MudText Typo="Typo.h3" Color="Color.Primary" Align="Align.Center">
-                How I Help
-            </MudText>
-            <MudDivider/>
-        </MudStack>
-        <MudGrid>
-            <MudItem xs="12" sm="4">
-                <MudCard Class="h-100" Outlined="true">
-                    <MudCardHeader>
-                        <MudIcon Icon="@Icons.Material.Filled.Lightbulb" Class="mr-2"/>
-                        <MudText Typo="Typo.h5">Strategic Planning</MudText>
-                    </MudCardHeader>
-                    <MudCardContent>
-                        <MudText>
-                            It all starts with a clear plan. I work directly with you to understand your goals, audit
-                            your current tech, and create a straightforward roadmap for success. No layers of
-                            management, just direct expert advice.
-                        </MudText>
-                    </MudCardContent>
-                </MudCard>
+<MudContainer Class="mt-10">
+    <MudStack Spacing="7" Style="min-height: 60vh;">
+        <MudGrid Justify="Justify.Center" AlignItems="AlignItems.Center" Style="height: 100%;">
+            <MudItem xs="12" lg="12">
+                <MudGrid Justify="Justify.Center">
+                    <MudItem xs="12" md="6" Class="d-flex align-center justify-center">
+                        <MudImage Src="assets/ben.png" Width="400"/>
+                    </MudItem>
+                    <MudItem xs="12" md="6">
+                        <MudStack Spacing="10" Class="d-flex align-center justify-center" Style="height: 100%;">
+                            <MudContainer MaxWidth="MaxWidth.Medium">
+                                <MudText Typo="Typo.h4" Color="Color.Primary" Align="Align.Center">
+                                    Hi. I'm Ben.
+                                </MudText>
+                            </MudContainer>
+                            <MudContainer MaxWidth="MaxWidth.Small">
+                                <MudStack Spacing="10" AlignItems="AlignItems.Center">
+                                    <MudStack Spacing="5" AlignItems="AlignItems.Center">
+                                        <MudText Typo="Typo.h6" Align="Align.Center">
+                                            In a world of constant challenges, I'm passionate about empowering others
+                                            to overcome obstacles and move forward. My focus is on providing
+                                            straightforward, tailored solutions for you and your projects.
+                                        </MudText>
+                                    </MudStack>
+                                </MudStack>
+                            </MudContainer>
+                        </MudStack>
+                    </MudItem>
+                </MudGrid>
             </MudItem>
-            <MudItem xs="12" sm="4">
-                <MudCard Class="h-100" Outlined="true">
-                    <MudCardHeader>
-                        <MudIcon Icon="@Icons.Material.Filled.Code" Class="mr-2"/>
-                        <MudText Typo="Typo.h5">Custom Tools & Automation</MudText>
-                    </MudCardHeader>
-                    <MudCardContent>
-                        <MudText>
-                            Instead of generic solutions, I build the specific tools you need to eliminate bottlenecks,
-                            automate tedious work, and connect your systems—freeing you up to focus on your business.
-                        </MudText>
-                    </MudCardContent>
-                </MudCard>
+        </MudGrid>
+    </MudStack>
+</MudContainer>
+
+<MudContainer Class="mt-10">
+    <MudStack Spacing="7" Style="min-height: 50vh;">
+        <MudGrid Justify="Justify.Center" AlignItems="AlignItems.Center" Style="height: 100%;">
+            <MudItem xs="12" lg="12">
+                <MudGrid Justify="Justify.Center">
+                    <MudItem xs="12" md="6">
+                        <MudStack Spacing="10" Class="d-flex align-center justify-center" Style="height: 100%;">
+                            <MudContainer MaxWidth="MaxWidth.Medium">
+                                <MudText Typo="Typo.h4" Color="Color.Primary" Align="Align.Center">
+                                    My Reason Why
+                                </MudText>
+                            </MudContainer>
+                            <MudContainer MaxWidth="MaxWidth.Small">
+                                <MudStack Spacing="10" AlignItems="AlignItems.Center">
+                                    <MudStack Spacing="5" AlignItems="AlignItems.Center">
+                                        <MudText Typo="Typo.h6" Align="Align.Center">
+                                            I started Chilengo to be the bridge between my passion for technology and
+                                            my desire to help others. I'm passionate about empowering others to overcome
+                                            obstacles and move forward. My focus is on providing straightforward, tailored
+                                            solutions for you and your projects.
+                                        </MudText>
+                                    </MudStack>
+                                </MudStack>
+                            </MudContainer>
+                        </MudStack>
+                    </MudItem>
+                    <MudItem xs="12" md="6" Class="d-flex align-center justify-center">
+                        <MudImage Src="assets/ben_coding.png" Width="400"/>
+                    </MudItem>
+                </MudGrid>
             </MudItem>
-            <MudItem xs="12" sm="4">
-                <MudCard Class="h-100" Outlined="true">
-                    <MudCardHeader>
-                        <MudIcon Icon="@Icons.Material.Filled.Favorite" Class="mr-2"/>
-                        <MudText Typo="Typo.h5">A Dedicated Partner</MudText>
-                    </MudCardHeader>
-                    <MudCardContent>
-                        <MudText>
-                            My job doesn't end at launch. You get a dedicated partner invested in your success,
-                            providing the ongoing support and improvements needed to ensure your technology continues to
-                            serve you well.
-                        </MudText>
-                    </MudCardContent>
-                </MudCard>
+        </MudGrid>
+    </MudStack>
+</MudContainer>
+
+<MudContainer Class="mt-10">
+    <MudDivider/>
+    <MudStack Spacing="4" Class="py-8">
+        <MudGrid Justify="Justify.Center">
+            <MudItem xs="12">
+                <MudStack AlignItems="AlignItems.Center" Spacing="10">
+                    <MudStack AlignItems="AlignItems.Center" Spacing="4">
+                        <MudText Typo="Typo.h6" Color="Color.Primary">Connect With Me</MudText>
+                        <MudStack Row="true" Spacing="4" AlignItems="AlignItems.Center">
+                            <MudStack AlignItems="AlignItems.Center" Spacing="0">
+                                <MudIconButton Icon="@Icons.Custom.Brands.X" Color="Color.Primary"
+                                               Title="Visit Chilengo on X"
+                                               Link="https://twitter.com/chilengo"/>
+                                <MudText Typo="Typo.caption">Chilengo</MudText>
+                            </MudStack>
+                            <MudStack AlignItems="AlignItems.Center" Spacing="0">
+                                <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Primary"
+                                               Title="Chilengo GitHub Profile"
+                                               Link="https://github.com/Chilengo"/>
+                                <MudText Typo="Typo.caption">Chilengo</MudText>
+                            </MudStack>
+                            <MudDivider Vertical="true" FlexItem="true" Class="mx-4"/>
+                            <MudStack AlignItems="AlignItems.Center" Spacing="0">
+                                <MudIconButton Icon="@Icons.Custom.Brands.LinkedIn" Color="Color.Primary"
+                                               Title="Connect with Ben on LinkedIn"
+                                               Link="https://www.linkedin.com/in/benjamin-burge-23b616123/"/>
+                                <MudText Typo="Typo.caption">LinkedIn</MudText>
+                            </MudStack>
+                            <MudStack AlignItems="AlignItems.Center" Spacing="0">
+                                <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Color="Color.Primary"
+                                               Title="Ben's Personal GitHub"
+                                               Link="https://github.com/BenBurge"/>
+                                <MudText Typo="Typo.caption">Ben</MudText>
+                            </MudStack>
+                        </MudStack>
+                    </MudStack>
+                    <MudText Typo="Typo.body2" Color="Color.Default">© 2024-2025 Chilengo LLC. All rights reserved.</MudText>
+                </MudStack>
             </MudItem>
         </MudGrid>
     </MudStack>
